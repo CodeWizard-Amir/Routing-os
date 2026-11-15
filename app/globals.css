@@ -1,5 +1,19 @@
 @import "tailwindcss";
+@font-face {
+    font-family: Vazir;
+    src: url('../public/fonts/Vazir-Regular.eot');
+    src: url('../public/fonts/Vazir-Regular.eot') format('embedded-opentype'),
+        url('../public/fonts/Vazir-Regular.woff2') format('woff2'),
+        url('../public/fonts/Vazir-Regular.woff') format('woff'),
+        url('../public/fonts/Vazir-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
+html,
+body {
+    font-family: Vazir !important;
+}
 :root {
   color-scheme: light;
   --bg: #f6f7fb;
