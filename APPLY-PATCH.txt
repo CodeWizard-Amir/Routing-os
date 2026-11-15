@@ -1,0 +1,11 @@
+Routine OS v1.2.0 – Background Push Patch
+
+1) Extract this ZIP into the ROOT of the existing Routine OS project.
+2) Allow files to merge/overwrite. Do not extract inside a nested folder.
+3) On Windows, double-click INSTALL-PUSH-PATCH-WINDOWS.bat (or run npm install in the project root).
+4) Configure the Vercel Environment Variables described in README_PUSH_FA.md.
+5) Commit and push the modified files (or deploy the updated project) to trigger a new Vercel deployment.
+6) After deployment, open the installed PWA, enter PUSH_API_SECRET in Settings, save it, enable notifications, and send a test notification.
+
+The patch does not replace the whole project and does not include .env secrets.
+Keep the existing local IndexedDB data. Do not clear site storage.
